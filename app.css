@@ -130,7 +130,8 @@ table {
 }
 
 body {
-    background-image: url(./janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-image: url(./project-assets/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+
     background-size: contain;
     background-repeat: no-repeat;
     width: 98%;
@@ -148,7 +149,7 @@ body {
 
 @font-face {
     font-family: font-logo;
-    src: url(./Norse-Bold\ \(1\).otf)
+    src: url(./project-assets/Norse-Bold\ \(1\).otf)
 }
 
 .logo-div {
