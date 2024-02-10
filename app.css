@@ -197,3 +197,15 @@ body {
 .fake-form-page h1:nth-of-type(3) {
     padding-top: 2rem;
 }
+
+form .container {
+    padding: 1.5rem;
+    background-color: white;
+}
+
+form h2 {
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding-top: 1rem;
+    ;
+}
