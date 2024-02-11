@@ -44,21 +44,23 @@
                     </label>
                     <input type="tel" id="phone-number" name="email">
                 </div>
-                <div class="password">
+                <div class="password ">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" class="error">
+                    <span>*passwords do not
+                        match</span>
                 </div>
-                <div class="confirm-password">
+                <div class="confirm-password ">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="password" id="confirm-password">
+                    <input type="password" name="password" id="confirm-password" class="error">
                 </div>
+
             </div>
             <div class="button">
                 <button>Create Account</button>
             </div>
             <p class="question">Already have an account? <span class="log-in">Log in </span></p>
         </form>
-
     </div>
 
     <script src="app.js"></script>

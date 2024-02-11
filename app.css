@@ -149,7 +149,6 @@ body {
     height: 100%;
     background-color: var(--main-color);
     position: relative;
-
 }
 
 @font-face {
@@ -223,28 +222,39 @@ form .container label {
     font-size: .8rem;
 }
 
-form .container input {
+.container input {
+    -webkit-appearance: none;
     max-width: 70%;
     appearance: none;
     border: 2px solid #E5E7EB;
     height: 30px;
-    border-radius: 2%;
+    border-radius: 1.7%;
 }
 
-form .container input:focus:nth-of-type(n) {
-    border-color: blue;
+textarea,
+input {
+    outline: none;
+}
+
+input:focus {
+    border: 2.3px solid blue;
+    box-shadow: 2px 0 5px black;
 }
 
 div button {
-    background-color: #596D48;
+    background-color: green;
     color: white;
     cursor: pointer;
     margin: 30px;
     font-size: 1rem;
     width: 12rem;
     height: 3.3rem;
-    border-radius: 5%;
+    border-radius: 4%;
     border-color: #596D48;
+}
+
+div button:hover {
+    background-color: gray;
 }
 
 .question {
@@ -252,6 +262,11 @@ div button {
 }
 
 .question span {
-    color: #596D48;
+    color: green;
     cursor: pointer;
+}
+
+.password span {
+    color: red;
+    display: block;
 }
